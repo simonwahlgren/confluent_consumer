@@ -1,3 +1,12 @@
+## Versions
+```sh
+$ docker-compose exec consumer python
+>>> import confluent_kafka
+>>> confluent_kafka.version()
+('0.11.0', 720896)
+>>> confluent_kafka.libversion()
+('0.11.0', 721151)
+```
 ## Reproduce
 1. Start the environment
 ```sh
