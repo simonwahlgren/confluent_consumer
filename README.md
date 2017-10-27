@@ -1,8 +1,8 @@
 ## Reproduce
 1. Start the environment
 ```sh
-docker-compose up -d kafka
-docker-compose up consumer
+docker-compose up -d
+docker-compose logs -f consumer
 ```
 2. In another terminal produce a message
 ```sh
